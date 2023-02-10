@@ -1,8 +1,8 @@
-<project name="”Sample usage of Salesforce Ant tasks”" default="”test”" xmlns:sf="”antlib:com.salesforce”">
+<project name="sfdcDemoRepository" default="test" basedir="." xmlns:sf="antlib:com.salesforce">
 
-  <property file="”build.properties”"/>
+  <property file="build.properties"/>
   
-  <property environment="”env”"/>
+  <property environment="env"/>
   
   <!-- <! — Deploy the unpackaged set of metadata retrieved with retrieveUnpackaged and run tests in this organization’s namespace only → -->
   
